@@ -1,0 +1,18 @@
+@import 'bootstrap/scss/bootstrap';
+
+.product_container {
+  padding: 24px;
+  border-radius: 12px;
+  background-color: $white;
+
+  .title {
+    font-size: 28px;
+    margin-bottom: 24px;
+    font-weight: 700;
+  }
+  .filter_container {
+    margin-bottom: 24px;
+    display: flex;
+    justify-content: flex-end;
+  }
+}
